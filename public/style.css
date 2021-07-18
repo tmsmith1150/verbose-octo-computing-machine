@@ -119,3 +119,25 @@ body {
 #d-4 {
   padding-left: 65px;
 }
+
+#line-up {
+  background-color:rgb(32, 32, 32);
+  color: white;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 30px;
+  height: 400px;
+}
+
+.guest {
+  background-color: rgb(218, 215, 215);
+  width:200px;
+  height: 200px;
+  margin: 5px;
+}
+
+#names {
+  background-color:rgb(32, 32, 32);
+  color: white;
+}
+
