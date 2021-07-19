@@ -1,10 +1,9 @@
 body {
 	font-family: 'proxima-nova', sans-serif;
-	/* font-size: 18px;
-	font-size: 1.8rem;
-	font-weight: 300;
-	line-height: 1.875;
-	margin: 0; */
+	width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .d-flex { display: flex; }
@@ -136,8 +135,33 @@ body {
   margin: 5px;
 }
 
-#names {
-  background-color:rgb(32, 32, 32);
-  color: white;
+.cards-div {
+  display: flex;
 }
+
+.card {
+  width: 200px;
+  height: 300px;
+  display: flex;
+}
+
+.card-img-top {
+  width: 100px;
+  height: 100px;
+}
+
+#reviews {
+  background-color: rgb(241, 226, 10);
+  padding-top: 30px;
+  height: 400px;
+}
+
+.review-card {
+  background-color: rgb(199, 195, 195);
+  width: 250px;
+  height: 250px;
+
+}
+
+
 
