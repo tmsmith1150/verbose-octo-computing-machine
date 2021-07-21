@@ -16,7 +16,7 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
   color: white;
-  background-color:rgb(32, 32, 32);
+  background-color:rgb(3, 5, 31);
 }
 
 .nav-links {
@@ -38,7 +38,7 @@ body {
 }
 
 #header {
-  background-color:rgb(32, 32, 32);
+  background-color:rgb(3, 5, 31);
   color: white;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -62,7 +62,7 @@ body {
 }
 
 #sec {
-  background-color:rgb(71, 107, 216)
+  background-color:rgb(71, 107, 216);
 }
 
 #count {
@@ -119,49 +119,95 @@ body {
   padding-left: 65px;
 }
 
-#line-up {
-  background-color:rgb(32, 32, 32);
-  color: white;
-  padding-left: 20%;
-  padding-right: 20%;
-  padding-top: 30px;
-  height: 400px;
-}
-
-.guest {
-  background-color: rgb(218, 215, 215);
-  width:200px;
-  height: 200px;
-  margin: 5px;
-}
-
-.cards-div {
+.row-cols-4 {
   display: flex;
+  justify-content: space-between;
+  padding-left: 15%;
+  padding-right: 15%;
+  flex-wrap: wrap;
 }
 
-.card {
+.row-cols-2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 15%;
+  padding-right: 15%;
+  
+}
+
+.card-group-1 {
+  background-color: rgb(3, 5, 31);
+}
+
+.card-group-2 {
+  background-color: rgb(128, 126, 50);
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+H2 {
+  padding-left: 10%;
+  color: white;
+
+}
+
+.sub-title {
+  padding-left: 10%;
+  color: white;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.text {
+  padding-left: 10%;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.spkrs-btn {
+  color: white;
+  font-size: 20px;
+  Background-color: rgb(58, 96, 207);
+  padding: 10px;
+  margin-left: 210px;
+  margin-bottom: 50px;
+}
+
+
+.card h-100 {
   width: 200px;
   height: 300px;
   display: flex;
 }
 
+.card-text {
+  width: 200px;
+  padding-bottom: 80px;
+}
+
 .card-img-top {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
 }
 
-#reviews {
-  background-color: rgb(241, 226, 10);
-  padding-top: 30px;
-  height: 400px;
-}
-
-.review-card {
-  background-color: rgb(199, 195, 195);
+.card-body-spkr {
+  background-color: grey;
   width: 250px;
-  height: 250px;
+  height: 200px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
 
 }
 
+H3 {
+  color: rgb(3, 5, 31);
+  margin-left: 25%;
+  height: 30px;
+  font-weight: bold;
+}
 
 
