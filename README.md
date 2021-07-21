@@ -12,6 +12,7 @@ This project is created with:
 *CSS
 *Moment.js
 *Bootstrap
+and is deployed on heroku: https://sproutawesomeevent.herokuapp.com/
 
 ## Setup
 To run this project, install it locally using npm:
@@ -19,3 +20,5 @@ To run this project, install it locally using npm:
 $ cd ../verbose-octo-computing-machine
 $ npm install
 $ npm start
+
+https://github.com/tmsmith1150/verbose-octo-computing-machine
